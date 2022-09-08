@@ -12,15 +12,15 @@ public class Client {
        Student s=new Student();
    
 //       //create operation 
-//   s.setRollno(101);
-//       s.setName("sayli");
-//       service.addStudent(s);
-       
-       
-//       s.setRollno(102);
-//      s.setName("parth");
+//   s.setRollno(103);
+//         s.setName("say");
 //     service.addStudent(s);
+//       
        
+    s.setRollno(104);
+      s.setName("parth");
+     service.addStudent(s);
+//       
        
       //retrieve data
 //		s=service.getStudentById(102);
@@ -32,10 +32,10 @@ public class Client {
 //		s.setName("amisha");
 //		service.updateStudent(s);
 		
-		//delete
-		s=service.getStudentById(102);
-	  service.deleteStudent(s);
-		System.out.println("Data is deleted");
+//		//delete
+//		s=service.getStudentById(103);
+//	  service.deleteStudent(s);
+//		System.out.println("Data is deleted");
 
 	
 	
